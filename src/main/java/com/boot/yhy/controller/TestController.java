@@ -54,10 +54,10 @@ public class TestController {
 	@ResponseBody
 	@GetMapping("/add")
 	public String addProduct() {
-		
-		 Product product = new Product(11L, "sssssssss","qq", 2123L, 123L, "1213"); product.setDate(new Date());
-		 pr.save(product);
-		 
+		Product product = new Product(11L, "sssssssss", "qq", 2123L, 123L,
+				"1213");
+		product.setDate(new Date());
+		pr.save(product);
 		List<Long> ids = pr.getIds();
 		System.out.println(ids.size() + "====" + ids.get(1));
 		return "XX";
