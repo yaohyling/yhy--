@@ -28,6 +28,9 @@ public class Product {
 	@Column
 	private Long leader;
 	
+	/**
+	 * 状态
+	 */
 	@Column
 	private Long status;
 	
