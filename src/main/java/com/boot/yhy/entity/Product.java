@@ -23,7 +23,7 @@ public class Product {
 	private String productName;
 	
 	/**
-	 * 领导
+	 * 领导 
 	 */
 	@Column
 	private Long leader;
