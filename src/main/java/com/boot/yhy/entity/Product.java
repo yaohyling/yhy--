@@ -22,6 +22,9 @@ public class Product {
 	@Column(name = "productname")
 	private String productName;
 	
+	/**
+	 * 领导
+	 */
 	@Column
 	private Long leader;
 	
